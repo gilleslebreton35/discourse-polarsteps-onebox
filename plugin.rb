@@ -6,7 +6,7 @@
 
 enabled_site_setting :polarsteps_onebox_enabled
 
-register_asset "stylesheets/polarsteps-onebox.scss"
+register_asset "../stylesheets/polarsteps-onebox.scss"
 
 after_initialize do
   # On crée un moteur de Onebox personnalisé pour Polarsteps
