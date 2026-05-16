@@ -1,1 +1,1 @@
-# discourse-polarsteps-onebox
+# discourse-search-bgg

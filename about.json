@@ -1,0 +1,8 @@
+{
+  "name": "discourse-polarsteps-onebox",
+  "version": "1.0",
+  "about": "Permet de coller des lients polarsteps.",
+  "authors": "Douglas",
+  "url": "",
+  "enabled_setting": "polarsteps_onebox_enabled"
+}

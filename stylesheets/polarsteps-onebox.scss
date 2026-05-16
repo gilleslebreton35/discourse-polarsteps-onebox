@@ -1,0 +1,17 @@
+.polarsteps-onebox-container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Optimisation pour les petits écrans de smartphones */
+@media parseFloat($reply-area-max-width) or (max-width: 600px) {
+  .polarsteps-onebox-container iframe {
+    height: 450px !important; /* Un peu moins haut sur mobile pour garder de la place */
+  }
+}
